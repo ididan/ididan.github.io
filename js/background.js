@@ -6,9 +6,6 @@ fetch(imageUrl)
     .then(response => response.json())
     .then(data => {
         const url = data.photos[0].src.original;
-        
-        const bgImage = document.createElement("img");
-        bgImage.src = url;
 
-        document.body.appendChild(bgImage);
+        document.body.style.background = `no-repeat center/100% url("${url}")`;
     });
