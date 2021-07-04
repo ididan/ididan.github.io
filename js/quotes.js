@@ -7,5 +7,4 @@ fetch(url)
         const q = data.contents.quotes[0];
         quote.innerText = q.quote;
         author.innerText = q.author;
-        console.log(data);
     });
