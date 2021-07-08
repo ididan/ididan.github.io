@@ -6,5 +6,5 @@ fetch(url)
         const author = document.querySelector("#quote span:last-child");
         const q = data.contents.quotes[0];
         quote.innerText = q.quote;
-        author.innerText = q.author;
+        author.innerText = `- ${q.author}`;
     });

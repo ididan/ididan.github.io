@@ -1,3 +1,48 @@
 .hidden {
   display: none;
 }
+.top{
+
+}
+#greeting{
+  width: 200;
+  display: block;
+  margin: 10% 10%;
+  color: white;
+}
+#weather{
+  width: 200;
+  display: block;
+  margin: 20% 80%;
+  color: white;
+}
+#clock {
+  width: 500;
+  display: block;
+  margin: 20% auto;
+  color: white;
+  font: small-caps bold 100px/1 sans-serif;
+}
+
+#todo-form{
+  width: 500;  
+  margin: 10% auto;
+  display: block;
+}
+
+#todo-list {
+  width: 500;
+  margin: 10% auto;
+  display: block;
+  background-color: #f643;
+}
+
+#quote {
+  width: 500;
+  background-color: #f643;
+  display: block;
+  margin: 20% auto;
+  color: white;
+  font: small-caps bold 20px/1 sans-serif;
+  padding: 10px 10px 10px 10px;
+}
