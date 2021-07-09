@@ -1,33 +1,86 @@
 .hidden {
   display: none;
 }
-.top{
-
+#bg {
+  background-position: center;
+  background-size: cover;
 }
-#greeting{
-  width: 200;
-  display: block;
-  margin: 10% 10%;
-  color: white;
+#bg3 {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  background-size: cover;
 }
-#weather{
+.background2 {
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-size: cover;
+  margin: 0 auto;
+  overflow: auto;
+  position: fixed;
+}
+#bg2 {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+}
+#greeting {
   width: 200;
-  display: block;
-  margin: 20% 80%;
+  margin: 5% 10%;
   color: white;
+  position: fixed;
+}
+#weather {
+  width: 300px;
+  margin-right: 10px;
+  text-align: right;
+  color: white;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.flex_container {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #clock {
-  width: 500;
-  display: block;
-  margin: 20% auto;
+  flex: 1;
   color: white;
-  font: small-caps bold 100px/1 sans-serif;
+  font: bold 15em sans-serif;
+}
+#quote {
+  flex: 0.5;
+  width: 500px;
+  margin-top: -10em;
+  background-color: #f643;
+  color: white;
+  font: small-caps bold 20px/1 sans-serif;
+  padding: 10px 10px 10px 10px;
+}
+#quote2 {
+  width: 500;
+  background-color: #f643;
+  display: block;
+  margin: 0% auto;
+  color: white;
+  font: small-caps bold 20px/1 sans-serif;
+  padding: 10px 10px 10px 10px;
 }
 
-#todo-form{
-  width: 500;  
-  margin: 10% auto;
+#todo-form {
+  width: 300;
+  margin: auto;
   display: block;
+  position: fixed;
 }
 
 #todo-list {
@@ -35,14 +88,5 @@
   margin: 10% auto;
   display: block;
   background-color: #f643;
-}
-
-#quote {
-  width: 500;
-  background-color: #f643;
-  display: block;
-  margin: 20% auto;
-  color: white;
-  font: small-caps bold 20px/1 sans-serif;
-  padding: 10px 10px 10px 10px;
+  position: fixed;
 }

@@ -12,5 +12,12 @@ fetch(imageUrl, { headers: { 'Authorization': API_KEY_IMAGE, }, })
             const index = Math.floor(Math.random() * data.photos.length);
             url = data.photos[index].src.original;
         }
-        document.body.style.background = `no-repeat center/100% url("${url}")`;
+        const img = document.createElement("img");
+        img.src = url;
+        img.className = "background"
+        //document.body.appendChild(img);
+        //document.body.style.background = `no-repeat 100% 100% url("${url}") fixed`;
+        console.dir(document.body.style);
+        document.body.style.backgroundImage = `url("${url}")`;
+        //document.body.style.background = `no-repeat 100% 100% url("${url}") fixed`;
     });
