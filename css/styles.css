@@ -5,31 +5,6 @@
   background-position: center;
   background-size: cover;
 }
-#bg3 {
-  width: 100%;
-  height: auto;
-  position: fixed;
-  background-size: cover;
-}
-.background2 {
-  max-width: 100%;
-  max-height: 100%;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-size: cover;
-  margin: 0 auto;
-  overflow: auto;
-  position: fixed;
-}
-#bg2 {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-}
 #greeting {
   color: white;
 }
@@ -59,15 +34,6 @@
   width: 500px;
   margin-top: -10em;
   background-color: #f643;
-  color: white;
-  font: small-caps bold 20px/1 sans-serif;
-  padding: 10px 10px 10px 10px;
-}
-#quote2 {
-  width: 500;
-  background-color: #f643;
-  display: block;
-  margin: 0% auto;
   color: white;
   font: small-caps bold 20px/1 sans-serif;
   padding: 10px 10px 10px 10px;
