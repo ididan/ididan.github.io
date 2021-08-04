@@ -17,7 +17,7 @@ title: ididan's Home
 email: ididan@paran.com
 description: >- # this means to ignore newlines until "baseurl:"
   프로그래머의 생활, 생각 하고 기록한다.
-baseurl: "/_site/" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "https://ididan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
