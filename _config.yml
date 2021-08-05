@@ -19,8 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   프로그래머의 생활, 생각 하고 기록한다.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://ididan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
+twitter_username: ididan
+github_username: ididan
 
 # Build settings
 markdown: kramdown
