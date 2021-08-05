@@ -24,7 +24,7 @@ github_username: ididan
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 # Exclude from processing.
