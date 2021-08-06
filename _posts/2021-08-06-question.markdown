@@ -3,6 +3,7 @@ layout: post
 title: "질문"
 date: 2021-08-06 23:23:56 +0900
 categories: 코드리뷰
+tags: [codeReview, review, 코드리뷰, 리뷰]
 ---
 
 # 좋은 질문은 무엇일까?
