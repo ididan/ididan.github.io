@@ -6,7 +6,8 @@ categories: DRM
 tags: [DRM, CDM]
 ---
 
-# CDM(Content Decryption Module) 혹은 EME(Encrypted Media Extentions)
+CDM(Content Decryption Module) 혹은 EME(Encrypted Media Extentions)
+===
 
 CDM 종류
 - Widevine(구글): 크롬, 파이어폭스, 안드로이드
@@ -28,7 +29,7 @@ Playready 의 경우 별도 지원 SOC 가 없으면 App 에 직접 적용해야
 
 아래 Playready 의 경우 각 case 별 그림이다
 
-<image src="https://docs.microsoft.com/en-us/playready/images/client_level_app_os_soc.png">
+![https://docs.microsoft.com/en-us/playready/images/client_level_app_os_soc.png](https://docs.microsoft.com/en-us/playready/images/client_level_app_os_soc.png)
 
 CDM 이 삼국지로 나뉘다보니 "CMAF"(Common Media Application Format) 라는<br>
 새로운 표준으로 "멀티 DRM 콘텐츠 단일화" 가 추진되고 MPEG 에 의해 2018년 1월 정식으로 발표된다
@@ -36,11 +37,12 @@ CDM 이 삼국지로 나뉘다보니 "CMAF"(Common Media Application Format) 라
 CMAF 에는 "fMP4"(Fragmented MP4) 컨테이너 포맷이 사용되어<br>
 DASH(2015), HLS(2016) 양쪽 모두 단일 컨테이너 적용이 가능해 졌다
 <p>
-references<br>
-- <a href=https://ko.wikipedia.org/wiki/CDM_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)>https://ko.wikipedia.org/wiki/CDM_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99)</a><br>
 
+references
 
-[https://www.widevine.com](https://www.widevine.com/).
+["(https://ko.wikipedia.org/wiki/CDM_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99))"](https://ko.wikipedia.org/wiki/CDM_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99))
+
+["https://www.widevine.com"](https://www.widevine.com/)
 
 
 - <https://www.microsoft.com/playready/features/EnhancedContentProtection.aspx>
