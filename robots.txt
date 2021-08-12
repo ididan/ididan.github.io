@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ididan.github.io//sitemap.xml
