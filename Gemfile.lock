@@ -220,6 +220,7 @@ DEPENDENCIES
   github-pages (~> 217)
   jekyll (~> 3.9.0)
   jekyll-feed (~> 0.15.1)
+  jekyll-sitemap
   kramdown-parser-gfm
   minima (~> 2.5.1)
   tzinfo (~> 1.2)
