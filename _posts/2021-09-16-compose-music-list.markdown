@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Music List with android compose"
+title:  "Android Compose 로 Music List 만들기 #1"
 date:   2021-09-16 23:17:00 +0900
 categories: android compose
 tags: [android, compose, list, music]
