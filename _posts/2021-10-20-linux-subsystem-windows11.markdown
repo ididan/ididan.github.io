@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Windows 11 업그레이드 후, WSL 에서 npm install 멈춤"
-date:   2021-10-20 19:55:00 +0900
-categories: android compose
+title: "Windows 11 업그레이드 후, WSL 에서 npm install 멈춤"
+date: 2021-10-20 19:55:00 +0900
+categories: wsl
 tags: [windows11, npm, nameserver]
 ---
 
